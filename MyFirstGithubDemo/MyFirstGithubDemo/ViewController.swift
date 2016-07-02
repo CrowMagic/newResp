@@ -31,8 +31,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
   }
   
   func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-    let cell = UITableViewCell(style: .Default, reuseIdentifier: "cell")
+    let cell = UITableViewCell(style: .Value1, reuseIdentifier: "cell")
     cell.textLabel?.text = String(format: "我是第%d行", indexPath.row)
+    cell.detailTextLabel?.text = String(format: "我是小%d", indexPath.row)
     return cell
   }
   
