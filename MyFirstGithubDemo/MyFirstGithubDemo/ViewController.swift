@@ -35,6 +35,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     switch indexPath.row {
     case 0:
         cell.textLabel?.text = "UIAlertController"
+    case 1:
+        cell.textLabel?.text = "CircleProgressBar"
     default:
         cell.textLabel?.text = String(format: "我是小%d", indexPath.row)
     }
@@ -45,6 +47,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         switch indexPath.row {
         case 0:
             navigationController?.pushViewController(AlertViewController(), animated: true)
+        case 1:
+            navigationController?.pushViewController(CircleProgressBarViewController(), animated: true)
         default:
             return
         }

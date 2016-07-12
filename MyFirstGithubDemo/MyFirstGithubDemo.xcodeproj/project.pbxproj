@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9413B1F61D349C34002CF255 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9413B1F51D349C34002CF255 /* AlertViewController.swift */; };
+		9413B1F81D34C02C002CF255 /* CircleProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9413B1F71D34C02C002CF255 /* CircleProgressBarViewController.swift */; };
 		9422DE2C1D27B29100E8DF79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422DE2B1D27B29100E8DF79 /* AppDelegate.swift */; };
 		9422DE2E1D27B29100E8DF79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422DE2D1D27B29100E8DF79 /* ViewController.swift */; };
 		9422DE311D27B29100E8DF79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9422DE2F1D27B29100E8DF79 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		9413B1F51D349C34002CF255 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		9413B1F71D34C02C002CF255 /* CircleProgressBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressBarViewController.swift; sourceTree = "<group>"; };
 		9422DE281D27B29100E8DF79 /* MyFirstGithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstGithubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9422DE2B1D27B29100E8DF79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9422DE2D1D27B29100E8DF79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				9422DE2B1D27B29100E8DF79 /* AppDelegate.swift */,
 				9422DE2D1D27B29100E8DF79 /* ViewController.swift */,
 				9413B1F51D349C34002CF255 /* AlertViewController.swift */,
+				9413B1F71D34C02C002CF255 /* CircleProgressBarViewController.swift */,
 				9422DE2F1D27B29100E8DF79 /* Main.storyboard */,
 				9422DE321D27B29100E8DF79 /* Assets.xcassets */,
 				9422DE341D27B29100E8DF79 /* LaunchScreen.storyboard */,
@@ -262,6 +265,7 @@
 				9422DE2E1D27B29100E8DF79 /* ViewController.swift in Sources */,
 				9413B1F61D349C34002CF255 /* AlertViewController.swift in Sources */,
 				9422DE2C1D27B29100E8DF79 /* AppDelegate.swift in Sources */,
+				9413B1F81D34C02C002CF255 /* CircleProgressBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
