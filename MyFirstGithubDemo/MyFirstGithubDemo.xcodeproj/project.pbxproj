@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9413B1F61D349C34002CF255 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9413B1F51D349C34002CF255 /* AlertViewController.swift */; };
 		9422DE2C1D27B29100E8DF79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422DE2B1D27B29100E8DF79 /* AppDelegate.swift */; };
 		9422DE2E1D27B29100E8DF79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422DE2D1D27B29100E8DF79 /* ViewController.swift */; };
 		9422DE311D27B29100E8DF79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9422DE2F1D27B29100E8DF79 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9413B1F51D349C34002CF255 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		9422DE281D27B29100E8DF79 /* MyFirstGithubDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstGithubDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9422DE2B1D27B29100E8DF79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9422DE2D1D27B29100E8DF79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				9422DE2B1D27B29100E8DF79 /* AppDelegate.swift */,
 				9422DE2D1D27B29100E8DF79 /* ViewController.swift */,
+				9413B1F51D349C34002CF255 /* AlertViewController.swift */,
 				9422DE2F1D27B29100E8DF79 /* Main.storyboard */,
 				9422DE321D27B29100E8DF79 /* Assets.xcassets */,
 				9422DE341D27B29100E8DF79 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9422DE2E1D27B29100E8DF79 /* ViewController.swift in Sources */,
+				9413B1F61D349C34002CF255 /* AlertViewController.swift in Sources */,
 				9422DE2C1D27B29100E8DF79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				9422DE521D27B29100E8DF79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9422DE531D27B29100E8DF79 /* Build configuration list for PBXNativeTarget "MyFirstGithubDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				9422DE551D27B29100E8DF79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9422DE561D27B29100E8DF79 /* Build configuration list for PBXNativeTarget "MyFirstGithubDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				9422DE581D27B29100E8DF79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
