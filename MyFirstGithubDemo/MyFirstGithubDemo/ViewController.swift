@@ -37,6 +37,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = "UIAlertController"
     case 1:
         cell.textLabel?.text = "CircleProgressBar"
+    case 2:
+        cell.textLabel?.text = "SocialShare"
     default:
         cell.textLabel?.text = String(format: "我是小%d", indexPath.row)
     }
@@ -49,6 +51,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             navigationController?.pushViewController(AlertViewController(), animated: true)
         case 1:
             navigationController?.pushViewController(CircleProgressBarViewController(), animated: true)
+        case 2:
+            navigationController?.pushViewController(SocialFrameworkViewController(), animated: true)
         default:
             return
         }
