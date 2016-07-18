@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		940CDD831D3C7B3C000859F3 /* ChatMaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940CDD821D3C7B3C000859F3 /* ChatMaskViewController.swift */; };
 		9413B1F61D349C34002CF255 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9413B1F51D349C34002CF255 /* AlertViewController.swift */; };
 		9413B1F81D34C02C002CF255 /* CircleProgressBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9413B1F71D34C02C002CF255 /* CircleProgressBarViewController.swift */; };
 		9413EF521D3887E3003BD620 /* SocialFrameworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9413EF511D3887E3003BD620 /* SocialFrameworkViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		940CDD821D3C7B3C000859F3 /* ChatMaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMaskViewController.swift; sourceTree = "<group>"; };
 		9413B1F51D349C34002CF255 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
 		9413B1F71D34C02C002CF255 /* CircleProgressBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressBarViewController.swift; sourceTree = "<group>"; };
 		9413EF511D3887E3003BD620 /* SocialFrameworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialFrameworkViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				9413B1F71D34C02C002CF255 /* CircleProgressBarViewController.swift */,
 				9413EF511D3887E3003BD620 /* SocialFrameworkViewController.swift */,
 				9421D6121D3A11B500D4CE78 /* StackViewController.swift */,
+				940CDD821D3C7B3C000859F3 /* ChatMaskViewController.swift */,
 				9422DE2F1D27B29100E8DF79 /* Main.storyboard */,
 				9422DE321D27B29100E8DF79 /* Assets.xcassets */,
 				9422DE341D27B29100E8DF79 /* LaunchScreen.storyboard */,
@@ -272,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				940CDD831D3C7B3C000859F3 /* ChatMaskViewController.swift in Sources */,
 				9422DE2E1D27B29100E8DF79 /* ViewController.swift in Sources */,
 				9413EF521D3887E3003BD620 /* SocialFrameworkViewController.swift in Sources */,
 				9413B1F61D349C34002CF255 /* AlertViewController.swift in Sources */,

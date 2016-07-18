@@ -36,14 +36,14 @@ class StackViewController: UIViewController {
         label1.text = "I am a red label"
         label1.textAlignment = .Center
         label1.backgroundColor = .redColor()
-        label1.layer.cornerRadius = 30
+//        label1.layer.cornerRadius = 30
         bigStackView.addArrangedSubview(label1)
         
         let label2 = UILabel()
         label2.text = "I am a green label"
         label2.textAlignment = .Center
         label2.backgroundColor = .greenColor()
-        label2.layer.cornerRadius = 30
+//        label2.layer.cornerRadius = 30
         bigStackView.addArrangedSubview(label2)
         
         smallStackView = UIStackView()
