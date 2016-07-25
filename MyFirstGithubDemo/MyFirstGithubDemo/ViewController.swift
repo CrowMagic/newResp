@@ -44,6 +44,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = "UIStackView"
     case 4:
         cell.textLabel?.text = "ChatMask"
+    case 5:
+        cell.textLabel?.text = "ShakeWithProtocol"
     default:
         cell.textLabel?.text = String(format: "我是小%d", indexPath.row)
     }
@@ -62,6 +64,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             navigationController?.pushViewController(StackViewController(), animated: true)
         case 4:
             navigationController?.pushViewController(ChatMaskViewController(), animated: true)
+        case 5:
+            navigationController?.pushViewController(ShakeViewController(), animated: true)
         default:
             return
         }
