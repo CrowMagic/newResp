@@ -46,6 +46,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = "ChatMask"
     case 5:
         cell.textLabel?.text = "ShakeWithProtocol"
+    case 6:
+        cell.textLabel?.text = "handleTableView"
     default:
         cell.textLabel?.text = String(format: "我是小%d", indexPath.row)
     }
@@ -66,6 +68,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             navigationController?.pushViewController(ChatMaskViewController(), animated: true)
         case 5:
             navigationController?.pushViewController(ShakeViewController(), animated: true)
+        case 6:
+            navigationController?.pushViewController(HandleTableViewViewController(), animated: true)
         default:
             return
         }
