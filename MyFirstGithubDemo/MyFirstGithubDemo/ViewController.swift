@@ -48,6 +48,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = "ShakeWithProtocol"
     case 6:
         cell.textLabel?.text = "handleTableView"
+    case 7:
+        cell.textLabel?.text = "CAGradientLayer"
     default:
         cell.textLabel?.text = String(format: "我是小%d", indexPath.row)
     }
@@ -70,6 +72,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             navigationController?.pushViewController(ShakeViewController(), animated: true)
         case 6:
             navigationController?.pushViewController(HandleTableViewViewController(), animated: true)
+        case 7:
+            navigationController?.pushViewController(CAGradientLayerViewController(), animated: true)
         default:
             return
         }

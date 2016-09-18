@@ -22,6 +22,7 @@
 		9422DE411D27B29100E8DF79 /* MyFirstGithubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422DE401D27B29100E8DF79 /* MyFirstGithubDemoTests.swift */; };
 		9422DE4C1D27B29100E8DF79 /* MyFirstGithubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422DE4B1D27B29100E8DF79 /* MyFirstGithubDemoUITests.swift */; };
 		94231CBD1D46FA8B00322179 /* HandleTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94231CBC1D46FA8B00322179 /* HandleTableViewViewController.swift */; };
+		94B174BA1D8E745200E905BD /* CAGradientLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B174B91D8E745200E905BD /* CAGradientLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		9422DE4B1D27B29100E8DF79 /* MyFirstGithubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstGithubDemoUITests.swift; sourceTree = "<group>"; };
 		9422DE4D1D27B29100E8DF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94231CBC1D46FA8B00322179 /* HandleTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleTableViewViewController.swift; sourceTree = "<group>"; };
+		94B174B91D8E745200E905BD /* CAGradientLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				9421D6121D3A11B500D4CE78 /* StackViewController.swift */,
 				940CDD821D3C7B3C000859F3 /* ChatMaskViewController.swift */,
 				94134CAD1D45E8F400CAD02F /* ShakeViewController.swift */,
+				94B174B91D8E745200E905BD /* CAGradientLayerViewController.swift */,
 				94231CBC1D46FA8B00322179 /* HandleTableViewViewController.swift */,
 				9422DE2F1D27B29100E8DF79 /* Main.storyboard */,
 				9422DE321D27B29100E8DF79 /* Assets.xcassets */,
@@ -289,6 +292,7 @@
 				9421D6131D3A11B500D4CE78 /* StackViewController.swift in Sources */,
 				9422DE2C1D27B29100E8DF79 /* AppDelegate.swift in Sources */,
 				9413B1F81D34C02C002CF255 /* CircleProgressBarViewController.swift in Sources */,
+				94B174BA1D8E745200E905BD /* CAGradientLayerViewController.swift in Sources */,
 				94134CAE1D45E8F400CAD02F /* ShakeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
