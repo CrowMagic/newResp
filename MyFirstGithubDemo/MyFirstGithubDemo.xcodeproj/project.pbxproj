@@ -22,6 +22,7 @@
 		9422DE411D27B29100E8DF79 /* MyFirstGithubDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422DE401D27B29100E8DF79 /* MyFirstGithubDemoTests.swift */; };
 		9422DE4C1D27B29100E8DF79 /* MyFirstGithubDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9422DE4B1D27B29100E8DF79 /* MyFirstGithubDemoUITests.swift */; };
 		94231CBD1D46FA8B00322179 /* HandleTableViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94231CBC1D46FA8B00322179 /* HandleTableViewViewController.swift */; };
+		9455185A1DAE2416002C41F0 /* PositionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945518591DAE2416002C41F0 /* PositionViewController.swift */; };
 		94B174BA1D8E745200E905BD /* CAGradientLayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B174B91D8E745200E905BD /* CAGradientLayerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,7 @@
 		9422DE4B1D27B29100E8DF79 /* MyFirstGithubDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstGithubDemoUITests.swift; sourceTree = "<group>"; };
 		9422DE4D1D27B29100E8DF79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94231CBC1D46FA8B00322179 /* HandleTableViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HandleTableViewViewController.swift; sourceTree = "<group>"; };
+		945518591DAE2416002C41F0 /* PositionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionViewController.swift; sourceTree = "<group>"; };
 		94B174B91D8E745200E905BD /* CAGradientLayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAGradientLayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -127,6 +129,7 @@
 				94134CAD1D45E8F400CAD02F /* ShakeViewController.swift */,
 				94B174B91D8E745200E905BD /* CAGradientLayerViewController.swift */,
 				94231CBC1D46FA8B00322179 /* HandleTableViewViewController.swift */,
+				945518581DAE23E8002C41F0 /* 基础动画 */,
 				9422DE2F1D27B29100E8DF79 /* Main.storyboard */,
 				9422DE321D27B29100E8DF79 /* Assets.xcassets */,
 				9422DE341D27B29100E8DF79 /* LaunchScreen.storyboard */,
@@ -151,6 +154,14 @@
 				9422DE4D1D27B29100E8DF79 /* Info.plist */,
 			);
 			path = MyFirstGithubDemoUITests;
+			sourceTree = "<group>";
+		};
+		945518581DAE23E8002C41F0 /* 基础动画 */ = {
+			isa = PBXGroup;
+			children = (
+				945518591DAE2416002C41F0 /* PositionViewController.swift */,
+			);
+			name = "基础动画";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +301,7 @@
 				9413B1F61D349C34002CF255 /* AlertViewController.swift in Sources */,
 				94231CBD1D46FA8B00322179 /* HandleTableViewViewController.swift in Sources */,
 				9421D6131D3A11B500D4CE78 /* StackViewController.swift in Sources */,
+				9455185A1DAE2416002C41F0 /* PositionViewController.swift in Sources */,
 				9422DE2C1D27B29100E8DF79 /* AppDelegate.swift in Sources */,
 				9413B1F81D34C02C002CF255 /* CircleProgressBarViewController.swift in Sources */,
 				94B174BA1D8E745200E905BD /* CAGradientLayerViewController.swift in Sources */,

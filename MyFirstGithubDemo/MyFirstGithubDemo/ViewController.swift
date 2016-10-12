@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
   var tableView: UITableView!
-  
+  var titleArray = [""]
   override func viewDidLoad() {
     super.viewDidLoad()
     
@@ -50,6 +50,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cell.textLabel?.text = "handleTableView"
     case 7:
         cell.textLabel?.text = "CAGradientLayer"
+    case 8:
+        cell.textLabel?.text = "PositionAnimation"
     default:
         cell.textLabel?.text = String(format: "我是小%d", indexPath.row)
     }
@@ -74,6 +76,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             navigationController?.pushViewController(HandleTableViewViewController(), animated: true)
         case 7:
             navigationController?.pushViewController(CAGradientLayerViewController(), animated: true)
+        case 8:
+            navigationController?.pushViewController(PositionViewController(), animated: true)
         default:
             return
         }
